@@ -1,4 +1,8 @@
 pluginManagement {
+    plugins {
+        id("androidx.navigation.safeargs.kotlin") version "2.10.2"
+    }
+
     repositories {
         google {
             content {
@@ -10,6 +14,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+
 }
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
